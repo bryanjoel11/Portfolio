@@ -9,7 +9,7 @@ export const LINKS = {
   email: '', // e.g. 'name@example.com'
   linkedin: '', // e.g. 'https://www.linkedin.com/in/...'
   resume: '', // e.g. './resume.pdf' once the PDF is in /public
-  nightjarLive: '',
+  moonreelLive: '',
   supplyLive: '',
   tomorrowlandLive: '',
 };
@@ -22,7 +22,7 @@ export const PERSON = {
 export const HERO = {
   eyebrow: "Hi, I'm",
   pitch:
-    'I turn everyday problems into products people actually use, from a supply tracker my team relied on to a pricing case study for a streaming service.',
+    'I turn everyday problems into products people actually use, from a supply tracker my team relied on to a pricing dashboard for a streaming service.',
   roles: ['Product management', 'Streaming and entertainment', 'Theme park revenue'],
 };
 
@@ -55,16 +55,16 @@ export interface WorkItem {
 export const WORK: WorkItem[] = [
   {
     num: '01',
-    title: 'Nightjar Insights',
+    title: 'Moonreel Insights',
     tagline: 'Subscription health and pricing for a streaming service.',
     problem:
       "Streaming services grow fast but lose subscribers just as fast. Raising prices can grow revenue or drive people away, and it's hard to tell which.",
     did: 'I built a subscriber analytics site that tracks growth by plan, retention by signup month, and what each subscriber is worth compared with what it costs to win one. A Pricing Lab lets you change a price or launch a bundle and see 12 months of projected revenue and churn. It ends with a one-page pricing recommendation.',
     chips: ['Churn and retention', 'Lifetime value vs. acquisition cost', 'Pricing what-ifs', 'Recommendation memo'],
-    img: './img/nightjar.jpg',
+    img: './img/moonreel.jpg',
     accent: 'nebula',
     buttons: [
-      { label: 'Open the case study', href: LINKS.nightjarLive, primary: true },
+      { label: 'Open the dashboard', href: LINKS.moonreelLive, primary: true },
       { label: 'GitHub', href: 'https://github.com/bryanjoel11/streaming-dashboard' },
     ],
   },
@@ -142,7 +142,7 @@ export const STORY: { when: string; title: string; text: string }[] = [
   {
     when: '2026',
     title: 'Building in public.',
-    text: 'I built a streaming pricing case study, rebuilt my supply tracker as a product, and redesigned Tomorrowland in 3D.',
+    text: 'I built a streaming pricing dashboard, rebuilt my supply tracker as a product, and redesigned Tomorrowland in 3D.',
   },
   {
     when: 'Now',
