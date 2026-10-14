@@ -16,7 +16,7 @@ export const LINKS = {
 
 export const PERSON = {
   first: 'Bryan',
-  last: ph('Last name'),
+  last: 'González',
 };
 
 export const HERO = {
@@ -24,12 +24,6 @@ export const HERO = {
   pitch:
     'I turn everyday problems into products people actually use, from a supply tracker my team relied on to a pricing case study for a streaming service.',
   roles: ['Product management', 'Streaming and entertainment', 'Theme park revenue'],
-  stats: [
-    { n: '3', label: 'Projects built' },
-    { n: ph('X yrs'), label: 'In theme park operations' },
-    { n: '1', label: 'Tool my team used every day' },
-    { n: ph('X'), label: 'Certifications' },
-  ],
 };
 
 export const ABOUT = {
@@ -40,9 +34,9 @@ export const ABOUT = {
     "What I'm looking for next: a product or project management role in streaming and entertainment, or a revenue and pricing role in theme parks.",
   ],
   currently: [
+    'Project Analyst, Disney Live Entertainment',
+    "Bachelor's in Business Analytics",
     'Building product case studies in pricing, retention and operations',
-    ph('Current job or role'),
-    ph('School or degree, if you want it here'),
   ],
 };
 
@@ -109,47 +103,41 @@ export const CREATIVE = {
     ],
     fineprint: 'Personal concept project. Not affiliated with Disney.',
   },
-  second: {
-    title: 'Stellar Forge',
-    tagline: "A space civilization game I'm building in TypeScript.",
-    description: ph('One or two sentences on the game, or remove this card'),
-  },
 };
 
 export const SKILLS: { group: string; chips: string[] }[] = [
   { group: 'Product', chips: ['User needs and pain points', 'Roadmaps', 'Success metrics', 'Prioritization', 'Writing recommendations'] },
   { group: 'Commercial', chips: ['Pricing what-ifs', 'Churn and retention', 'Lifetime value vs. acquisition cost', 'Revenue modeling'] },
   { group: 'Operations', chips: ['Inventory and reorder planning', 'Guest experience', 'Working with frontline teams'] },
-  { group: 'Tools', chips: [ph('Excel or Google Sheets'), 'GitHub', ph('Jira, Trello or Asana'), ph('SQL'), 'AI tools like Claude'] },
-  { group: 'Working style', chips: ['Breaking big ideas into small steps', 'Explaining numbers in plain words', ph('Teamwork, leadership')] },
+  { group: 'Tools', chips: ['Microsoft Excel', 'Business intelligence', 'Data analytics', 'GitHub', 'AI tools like Claude'] },
+  { group: 'Working style', chips: ['Breaking big ideas into small steps', 'Explaining numbers in plain words'] },
 ];
 
-export const CERTS: { name: string; issuer: string; date: string; url: string }[] = [
-  { name: ph('Certification'), issuer: ph('Issuer'), date: ph('Month Year'), url: '' },
-  { name: ph('Certification'), issuer: ph('Issuer'), date: ph('Month Year'), url: '' },
-  { name: ph('Certification'), issuer: ph('Issuer'), date: ph('Month Year'), url: '' },
+export const CERTS: { name: string; issuer: string; url: string }[] = [
+  { name: 'Microsoft Office Specialist: Excel Associate', issuer: 'Microsoft', url: '' },
+  { name: 'Data and Analytics: Business Intelligence', issuer: 'Disney', url: '' },
 ];
 
 export const STORY: { when: string; title: string; text: string }[] = [
   {
-    when: ph('Year'),
+    when: 'Growing up',
     title: 'A fan first.',
-    text: `I grew up loving theme parks, and I always wanted to know how they really work behind the rides. ${ph('One detail that makes it yours')}`,
+    text: 'I grew up loving theme parks, and I always wanted to know how they really work behind the rides.',
   },
   {
-    when: ph('Year'),
+    when: '2023',
     title: 'Joining attractions operations.',
     text: 'I started working in theme park attractions and learned how much planning it takes to give guests a great day.',
   },
   {
-    when: ph('Year'),
+    when: '2025',
     title: 'My first product.',
     text: 'My team was ordering supplies blind, so I built a tracker with mobile and desktop versions. It changed how we ordered and showed me I love building products.',
   },
   {
-    when: ph('Year'),
-    title: ph('School, job, or certification'),
-    text: ph('What you did and what you took away, or remove this stop'),
+    when: '2026',
+    title: "Bachelor's in Business Analytics.",
+    text: 'My degree gave me the tools to back up ideas with data, from analysis and forecasting to business intelligence.',
   },
   {
     when: '2026',
@@ -158,8 +146,8 @@ export const STORY: { when: string; title: string; text: string }[] = [
   },
   {
     when: 'Now',
-    title: "What's next.",
-    text: 'Looking for a product role where I can turn problems I understand into products that work.',
+    title: 'Project Analyst, Disney Live Entertainment.',
+    text: "Today I work as a project analyst, and I'm looking for a product role where I can turn problems I understand into products that work.",
   },
 ];
 

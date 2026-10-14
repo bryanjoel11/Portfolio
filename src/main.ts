@@ -70,9 +70,6 @@ const hero = `
       <a class="btn primary lg" href="#work">See my work ${ICON.arrow}</a>
       <a class="btn ghost lg" href="#connect">Let's connect</a>
     </div>
-    <dl class="stats hero-in" style="--d:420ms">
-      ${HERO.stats.map((s) => `<div class="stat"><dt>${s.label}</dt><dd>${s.n}</dd></div>`).join('')}
-    </dl>
   </div>
   <a class="scroll-cue" href="#about" aria-label="Scroll to About"><span></span></a>
 </section>`;
@@ -136,11 +133,6 @@ const creative = `
         <p class="fineprint">${f.fineprint}</p>
       </div>
     </article>
-    <article class="card mini-card reveal">
-      <h3>${CREATIVE.second.title}</h3>
-      <p class="work-tag">${CREATIVE.second.tagline}</p>
-      <p>${CREATIVE.second.description}</p>
-    </article>
   </div>
 </section>`;
 
@@ -159,14 +151,14 @@ const skills = `
 const certs = `
 <section class="band" id="certifications">
   <div class="wrap">
-    ${sectionHead('Certifications', 'Verified, not just listed.')}
+    ${sectionHead('Certifications', "Credentials I've earned.")}
     <div class="cert-grid">
       ${CERTS.map(
         (c) => `<div class="card cert-card reveal">
           <span class="cert-badge">${ICON.check}</span>
           <h3>${c.name}</h3>
-          <p>${c.issuer} · ${c.date}</p>
-          ${c.url ? `<a class="text-link" href="${c.url}" target="_blank" rel="noopener">Verify ${ICON.ext}</a>` : `<span class="text-link muted">Verify ${ph('link')}</span>`}
+          <p>${c.issuer}</p>
+          ${c.url ? `<a class="text-link" href="${c.url}" target="_blank" rel="noopener">Verify ${ICON.ext}</a>` : ''}
         </div>`,
       ).join('')}
     </div>
