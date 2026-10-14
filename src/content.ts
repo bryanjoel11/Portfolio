@@ -9,9 +9,9 @@ export const LINKS = {
   email: '', // e.g. 'name@example.com'
   linkedin: '', // e.g. 'https://www.linkedin.com/in/...'
   resume: '', // e.g. './resume.pdf' once the PDF is in /public
-  afterglowLive: '',
-  supplyLive: '',
-  tomorrowlandLive: '',
+  afterglowLive: 'https://afterglow-insights.netlify.app',
+  supplyLive: 'https://supply-tracker-app.netlify.app',
+  tomorrowlandLive: 'https://tomorrowland-reimagined.netlify.app',
 };
 
 export const PERSON = {
