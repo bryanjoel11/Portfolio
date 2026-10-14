@@ -8,7 +8,7 @@ export const LINKS = {
   github: 'https://github.com/bryanjoel11',
   email: 'gonzalezmoral67@gmail.com',
   linkedin: 'https://www.linkedin.com/in/bryan-gonz%C3%A1lez',
-  resume: '', // e.g. './resume.pdf' once the PDF is in /public
+  resume: './Bryan-Gonzalez-Resume.pdf',
   afterglowLive: 'https://afterglow-insights.netlify.app',
   supplyLive: 'https://supply-tracker-app.netlify.app',
   tomorrowlandLive: 'https://tomorrowland-reimagined.netlify.app',
@@ -31,7 +31,7 @@ export const ABOUT = {
   paragraphs: [
     "I'm Bryan. I've worked in theme park attractions operations, and I'm a theme park fan as much as I am an employee. Working there, I noticed my team was ordering supplies blind, so I built an app to track what we had and what we used. Seeing people change how they worked because of something I built is what pulled me toward product management.",
     'Now I build products and case studies that show how I think: find the real problem, build something simple that fixes it, and measure whether it worked. I care about the commercial side too, like what a price change does to revenue and why customers stay or leave.',
-    "What I'm looking for next: a product or project management role in streaming and entertainment, or a revenue and pricing role in theme parks.",
+    "What I'm looking for next: a product or project management role where I can turn problems I understand into products that work.",
   ],
   currently: [
     'Project Analyst, Disney Live Entertainment',
@@ -153,5 +153,5 @@ export const STORY: { when: string; title: string; text: string }[] = [
 
 export const CONNECT = {
   heading: "Let's connect.",
-  text: "I'm open to product and project management roles in streaming and entertainment, and revenue and pricing roles in theme parks. Email is the fastest way to reach me.",
+  text: "I'm open to product and project management roles. Email is the fastest way to reach me.",
 };
