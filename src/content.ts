@@ -152,6 +152,6 @@ export const STORY: { when: string; title: string; text: string }[] = [
 ];
 
 export const CONNECT = {
-  heading: "Let's build something together.",
+  heading: "Let's connect.",
   text: "I'm open to product and project management roles in streaming and entertainment, and revenue and pricing roles in theme parks. Email is the fastest way to reach me.",
 };

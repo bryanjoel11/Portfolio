@@ -186,7 +186,7 @@ const connect = `
 <section class="band" id="connect">
   <div class="wrap">
     <div class="connect-card reveal">
-      <p class="eyebrow">Let's connect</p>
+      <p class="eyebrow">Contact</p>
       <h2>${CONNECT.heading}</h2>
       <p class="sec-intro">${CONNECT.text}</p>
       <div class="contact-grid">
