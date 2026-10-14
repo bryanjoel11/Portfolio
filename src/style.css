@@ -298,6 +298,7 @@ svg.fill {
 /* ---------- hero ---------- */
 .hero {
   position: relative;
+  overflow-x: clip;
   min-height: 100vh;
   min-height: 100svh;
   display: flex;
@@ -315,17 +316,13 @@ svg.fill {
   pointer-events: none;
 }
 .hero-name {
-  font-size: clamp(56px, 10vw, 128px);
+  font-size: clamp(52px, 8vw, 104px);
   font-weight: 700;
   letter-spacing: -0.04em;
   margin: 14px 0 22px;
   line-height: 0.95;
 }
-.hero-name .last {
-  font-size: 0.4em;
-  vertical-align: middle;
-  letter-spacing: 0;
-}
+
 .hero-pitch {
   max-width: 640px;
   font-size: clamp(18px, 2.1vw, 22px);
@@ -433,8 +430,8 @@ svg.fill {
 }
 .orbit {
   position: absolute;
-  right: -20px;
-  top: calc(50% - 260px);
+  right: -90px;
+  top: calc(50% - 250px);
   width: 440px;
   height: 440px;
   pointer-events: none;

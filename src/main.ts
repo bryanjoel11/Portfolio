@@ -63,7 +63,7 @@ const hero = `
       <div class="core"></div>
     </div>
     <p class="eyebrow hero-in" style="--d:0ms">${HERO.eyebrow}</p>
-    <h1 class="hero-name hero-in" style="--d:80ms"><span class="grad shimmer">${PERSON.first}</span> <span class="last">${PERSON.last}</span></h1>
+    <h1 class="hero-name hero-in" style="--d:80ms"><span class="grad shimmer">${PERSON.first} ${PERSON.last}</span></h1>
     <p class="hero-pitch hero-in" style="--d:160ms">${HERO.pitch}</p>
     <ul class="role-line hero-in" style="--d:240ms">${HERO.roles.map((r) => `<li>${r}</li>`).join('')}</ul>
     <div class="hero-ctas hero-in" style="--d:320ms">
