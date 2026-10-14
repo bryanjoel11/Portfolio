@@ -1072,3 +1072,17 @@ a.contact-link:hover {
     transition: none;
   }
 }
+
+/* Centered hero, no orbit; project previews keep their full 16:10 frame */
+.hero-inner { text-align: center; display: flex; flex-direction: column; align-items: center; }
+.hero-pitch { margin-left: auto; margin-right: auto; }
+.role-line, .hero-ctas { justify-content: center; }
+.orbit { display: none; }
+.work-media { min-height: 0; aspect-ratio: 16 / 10; align-self: center; }
+.work-media img { object-position: top center; }
+.feature-media { min-height: 0; aspect-ratio: 16 / 10; align-self: center; }
+.feature-media img { object-position: top center; }
+@media (max-width: 640px) {
+  .role-line { flex-direction: column; align-items: center; gap: 6px; }
+  .role-line li + li::before { display: none; }
+}

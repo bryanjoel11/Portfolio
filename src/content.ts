@@ -6,8 +6,8 @@ export const ph = (label: string) => `<span class="ph" title="To fill in">[${lab
 // Live Netlify links. Leave empty until each site is deployed; the "live" buttons stay hidden until then.
 export const LINKS = {
   github: 'https://github.com/bryanjoel11',
-  email: '', // e.g. 'name@example.com'
-  linkedin: '', // e.g. 'https://www.linkedin.com/in/...'
+  email: 'gonzalezmoral67@gmail.com',
+  linkedin: 'https://www.linkedin.com/in/bryan-gonz%C3%A1lez',
   resume: '', // e.g. './resume.pdf' once the PDF is in /public
   afterglowLive: 'https://afterglow-insights.netlify.app',
   supplyLive: 'https://supply-tracker-app.netlify.app',
