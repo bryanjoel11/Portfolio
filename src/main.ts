@@ -44,7 +44,7 @@ function sectionHead(eyebrow: string, heading: string, intro = '') {
 const header = `
 <header class="nav-wrap">
   <nav class="nav" aria-label="Main">
-    <a class="brand" href="#top" aria-label="Back to top"><span class="brand-dot"></span>${PERSON.first}</a>
+    <a class="brand" href="#top" aria-label="Back to top"><span class="brand-dot"></span></a>
     <div class="nav-links" id="nav-links">
       ${NAV.map(([id, label]) => `<a href="#${id}" data-nav="${id}">${label}</a>`).join('')}
     </div>
@@ -56,12 +56,6 @@ const header = `
 const hero = `
 <section class="hero" id="top">
   <div class="wrap hero-inner">
-    <div class="orbit hero-in" style="--d:300ms" aria-hidden="true">
-      <div class="ring" style="--i:0%;--t:90s"><span class="sat" style="--c:#7C5CFF"></span></div>
-      <div class="ring" style="--i:14%;--t:64s;rotate:140deg"><span class="sat" style="--c:#FF7A3D"></span></div>
-      <div class="ring" style="--i:28%;--t:44s;rotate:250deg"><span class="sat" style="--c:#3DDCC0"></span></div>
-      <div class="core"></div>
-    </div>
     <p class="eyebrow hero-in" style="--d:0ms">${HERO.eyebrow}</p>
     <h1 class="hero-name hero-in" style="--d:80ms"><span class="grad shimmer">${PERSON.first} ${PERSON.last}</span></h1>
     <p class="hero-pitch hero-in" style="--d:160ms">${HERO.pitch}</p>
@@ -186,13 +180,12 @@ const connect = `
 <section class="band" id="connect">
   <div class="wrap">
     <div class="connect-card reveal">
-      <p class="eyebrow">Let's connect</p>
+      <p class="eyebrow">Contact</p>
       <h2>${CONNECT.heading}</h2>
       <p class="sec-intro">${CONNECT.text}</p>
       <div class="contact-grid">
         ${contactLink(ICON.mail, 'Email me', LINKS.email || ph('your email'), LINKS.email ? `mailto:${LINKS.email}` : '')}
         ${contactLink(ICON.linkedin, 'LinkedIn', LINKS.linkedin ? 'View profile' : ph('profile link'), LINKS.linkedin)}
-        ${contactLink(ICON.github, 'GitHub', 'github.com/bryanjoel11', LINKS.github)}
         ${contactLink(ICON.file, 'Résumé', LINKS.resume ? 'Download PDF' : ph('PDF'), LINKS.resume)}
       </div>
     </div>
