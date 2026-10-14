@@ -9,7 +9,7 @@ export const LINKS = {
   email: '', // e.g. 'name@example.com'
   linkedin: '', // e.g. 'https://www.linkedin.com/in/...'
   resume: '', // e.g. './resume.pdf' once the PDF is in /public
-  dusklineLive: '',
+  afterglowLive: '',
   supplyLive: '',
   tomorrowlandLive: '',
 };
@@ -55,16 +55,16 @@ export interface WorkItem {
 export const WORK: WorkItem[] = [
   {
     num: '01',
-    title: 'Duskline Insights',
+    title: 'Afterglow Insights',
     tagline: 'Subscription health and pricing for a streaming service.',
     problem:
       "Streaming services grow fast but lose subscribers just as fast. Raising prices can grow revenue or drive people away, and it's hard to tell which.",
     did: 'I built a subscriber analytics site that tracks growth by plan, retention by signup month, and what each subscriber is worth compared with what it costs to win one. A Pricing Lab lets you change a price or launch a bundle and see 12 months of projected revenue and churn. It ends with a one-page pricing recommendation.',
     chips: ['Churn and retention', 'Lifetime value vs. acquisition cost', 'Pricing what-ifs', 'Recommendation memo'],
-    img: './img/duskline.jpg',
+    img: './img/afterglow.jpg',
     accent: 'nebula',
     buttons: [
-      { label: 'Open the dashboard', href: LINKS.dusklineLive, primary: true },
+      { label: 'Open the dashboard', href: LINKS.afterglowLive, primary: true },
       { label: 'GitHub', href: 'https://github.com/bryanjoel11/streaming-dashboard' },
     ],
   },
