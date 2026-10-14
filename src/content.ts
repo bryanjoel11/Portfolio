@@ -75,12 +75,12 @@ export const WORK: WorkItem[] = [
     problem:
       'My team ordered supplies blind. Nobody could see what we had or how fast we used it, so we over-ordered some things and ran out of others.',
     did: 'I built an app with mobile and desktop versions that the team used to track stock, used by coordinators, leaders and the proprietor. Then I rebuilt the idea as a product: reorder suggestions from usage history, stock status at a glance, and a comparison of ordering on habit against ordering on data.',
-    chips: ['Product case study', 'Reorder suggestions', 'Roadmap and success metrics'],
+    chips: ['Product thinking', 'Reorder suggestions', 'Roadmap and success metrics'],
     img: './img/supply.jpg',
     accent: 'ember',
     buttons: [
       { label: 'Open the app', href: LINKS.supplyLive, primary: true },
-      { label: 'Read the case study', href: LINKS.supplyLive ? `${LINKS.supplyLive}#/case-study` : '' },
+      { label: 'Read the story', href: LINKS.supplyLive ? `${LINKS.supplyLive}#/case-study` : '' },
       { label: 'GitHub', href: 'https://github.com/bryanjoel11/supply-tracker' },
     ],
   },
