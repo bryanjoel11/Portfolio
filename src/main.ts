@@ -186,7 +186,6 @@ const connect = `
       <div class="contact-grid">
         ${contactLink(ICON.mail, 'Email me', LINKS.email || ph('your email'), LINKS.email ? `mailto:${LINKS.email}` : '')}
         ${contactLink(ICON.linkedin, 'LinkedIn', LINKS.linkedin ? 'View profile' : ph('profile link'), LINKS.linkedin)}
-        ${contactLink(ICON.github, 'GitHub', 'github.com/bryanjoel11', LINKS.github)}
         ${contactLink(ICON.file, 'Résumé', LINKS.resume ? 'Download PDF' : ph('PDF'), LINKS.resume)}
       </div>
     </div>

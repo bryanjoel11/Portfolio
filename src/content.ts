@@ -65,7 +65,6 @@ export const WORK: WorkItem[] = [
     accent: 'nebula',
     buttons: [
       { label: 'Open the dashboard', href: LINKS.afterglowLive, primary: true },
-      { label: 'GitHub', href: 'https://github.com/bryanjoel11/streaming-dashboard' },
     ],
   },
   {
@@ -81,7 +80,6 @@ export const WORK: WorkItem[] = [
     buttons: [
       { label: 'Open the app', href: LINKS.supplyLive, primary: true },
       { label: 'Read the story', href: LINKS.supplyLive ? `${LINKS.supplyLive}#/case-study` : '' },
-      { label: 'GitHub', href: 'https://github.com/bryanjoel11/supply-tracker' },
     ],
   },
 ];
@@ -99,7 +97,6 @@ export const CREATIVE = {
     img: './img/tomorrowland.jpg',
     buttons: [
       { label: 'Explore in 3D', href: LINKS.tomorrowlandLive, primary: true },
-      { label: 'GitHub', href: 'https://github.com/bryanjoel11/tomorrowland-reimagined' },
     ],
     fineprint: 'Personal concept project. Not affiliated with Disney.',
   },
