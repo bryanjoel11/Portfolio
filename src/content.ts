@@ -6,12 +6,12 @@ export const ph = (label: string) => `<span class="ph" title="To fill in">[${lab
 // Live Netlify links. Leave empty until each site is deployed; the "live" buttons stay hidden until then.
 export const LINKS = {
   github: 'https://github.com/bryanjoel11',
-  email: '', // e.g. 'name@example.com'
-  linkedin: '', // e.g. 'https://www.linkedin.com/in/...'
-  resume: '', // e.g. './resume.pdf' once the PDF is in /public
-  afterglowLive: '',
-  supplyLive: '',
-  tomorrowlandLive: '',
+  email: 'gonzalezmoral67@gmail.com',
+  linkedin: 'https://www.linkedin.com/in/bryan-gonz%C3%A1lez',
+  resume: './Bryan-Gonzalez-Resume.pdf',
+  afterglowLive: 'https://afterglow-insights.netlify.app',
+  supplyLive: 'https://supply-tracker-app.netlify.app',
+  tomorrowlandLive: 'https://tomorrowland-reimagined.netlify.app',
 };
 
 export const PERSON = {
@@ -31,7 +31,7 @@ export const ABOUT = {
   paragraphs: [
     "I'm Bryan. I've worked in theme park attractions operations, and I'm a theme park fan as much as I am an employee. Working there, I noticed my team was ordering supplies blind, so I built an app to track what we had and what we used. Seeing people change how they worked because of something I built is what pulled me toward product management.",
     'Now I build products and case studies that show how I think: find the real problem, build something simple that fixes it, and measure whether it worked. I care about the commercial side too, like what a price change does to revenue and why customers stay or leave.',
-    "What I'm looking for next: a product or project management role in streaming and entertainment, or a revenue and pricing role in theme parks.",
+    "What I'm looking for next: a product or project management role where I can turn problems I understand into products that work.",
   ],
   currently: [
     'Project Analyst, Disney Live Entertainment',
@@ -65,7 +65,6 @@ export const WORK: WorkItem[] = [
     accent: 'nebula',
     buttons: [
       { label: 'Open the dashboard', href: LINKS.afterglowLive, primary: true },
-      { label: 'GitHub', href: 'https://github.com/bryanjoel11/streaming-dashboard' },
     ],
   },
   {
@@ -75,13 +74,12 @@ export const WORK: WorkItem[] = [
     problem:
       'My team ordered supplies blind. Nobody could see what we had or how fast we used it, so we over-ordered some things and ran out of others.',
     did: 'I built an app with mobile and desktop versions that the team used to track stock, used by coordinators, leaders and the proprietor. Then I rebuilt the idea as a product: reorder suggestions from usage history, stock status at a glance, and a comparison of ordering on habit against ordering on data.',
-    chips: ['Product case study', 'Reorder suggestions', 'Roadmap and success metrics'],
+    chips: ['Product thinking', 'Reorder suggestions', 'Roadmap and success metrics'],
     img: './img/supply.jpg',
     accent: 'ember',
     buttons: [
       { label: 'Open the app', href: LINKS.supplyLive, primary: true },
-      { label: 'Read the case study', href: LINKS.supplyLive ? `${LINKS.supplyLive}#/case-study` : '' },
-      { label: 'GitHub', href: 'https://github.com/bryanjoel11/supply-tracker' },
+      { label: 'Read the story', href: LINKS.supplyLive ? `${LINKS.supplyLive}#/case-study` : '' },
     ],
   },
 ];
@@ -99,7 +97,6 @@ export const CREATIVE = {
     img: './img/tomorrowland.jpg',
     buttons: [
       { label: 'Explore in 3D', href: LINKS.tomorrowlandLive, primary: true },
-      { label: 'GitHub', href: 'https://github.com/bryanjoel11/tomorrowland-reimagined' },
     ],
     fineprint: 'Personal concept project. Not affiliated with Disney.',
   },
@@ -152,6 +149,6 @@ export const STORY: { when: string; title: string; text: string }[] = [
 ];
 
 export const CONNECT = {
-  heading: "Let's build something together.",
-  text: "I'm open to product and project management roles in streaming and entertainment, and revenue and pricing roles in theme parks. Email is the fastest way to reach me.",
+  heading: "Let's connect.",
+  text: "I'm open to product and project management roles. Email is the fastest way to reach me.",
 };
