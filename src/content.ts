@@ -133,7 +133,7 @@ export const SCOUT = {
     {
       title: 'Character first',
       text: "Before any shapes, I defined who it is: curious, loyal, a little scrappy, a mechanic's helper rebuilt from scrapyard parts. Then I ranked features for version 1 (moving head, grid eye, sound, idle moves and a remote) and moved walking to a later version.",
-      imgs: [{ src: './img/scout/06-bryan-markup-wedge-head.jpg', caption: 'My markup asking for a wedge-shaped head, which led to the trapezoid head.' }],
+      imgs: [{ src: './img/scout/03-early-direction-welder-mask.jpg', caption: 'First direction: a welder-mask head. I set it aside for a three-eye head with more personality.' }],
     },
     {
       title: '33 rounds of sketches',
