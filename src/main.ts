@@ -130,7 +130,7 @@ const creative = `
       </div>
     </article>
     <article class="feature-card flip reveal">
-      <div class="feature-media"><img src="${d.img}" alt="3D render of the Scrapyard Scout droid" width="1600" height="1000" loading="lazy" /></div>
+      <div class="feature-media"><img src="${d.img}" alt="3D render of my BD-1 droid" width="1600" height="1000" loading="lazy" /></div>
       <div class="feature-body">
         <p class="eyebrow"><span class="live-dot"></span>${d.status}</p>
         <h3>${d.title}</h3>
@@ -138,6 +138,7 @@ const creative = `
         <p class="feature-desc">${d.description}</p>
         <ul class="chips">${d.chips.map((c) => `<li>${c}</li>`).join('')}</ul>
         <div class="btn-row">${d.buttons.map(button).join('')}</div>
+        <p class="fineprint">${d.fineprint}</p>
       </div>
     </article>
   </div>

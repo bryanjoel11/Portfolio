@@ -102,20 +102,21 @@ export const CREATIVE = {
   },
   // Second creative project, shown under the featured one with the image on the right.
   droid: {
-    title: 'Scrapyard Scout',
+    title: 'BD-1 Droid',
     status: 'In progress',
-    tagline: 'An original companion droid I designed to wear on my back.',
+    tagline: 'A companion droid I designed to wear on my back.',
     description:
-      "I've always loved scrappy little companion droids, so I'm designing my own from scratch. Scrapyard Scout is a mechanic's helper that rides on a back harness, looks over my shoulder, and shows its mood with head poses, a glowing grid eye and sound. Over 35 design rounds it went from a character brief to a print-ready, 32-part model. Next up: printing, wiring and programming it.",
+      "I've always loved scrappy little companion droids, so I'm designing my own from scratch. My BD-1 is a mechanic's helper that rides on a back harness, looks over my shoulder, and shows its mood with head poses, a glowing grid eye and sound. Over 35 design rounds it went from a character brief to a print-ready, 32-part model. Next up: printing, wiring and programming it.",
     chips: ['Character design', 'Modeled in Blender', 'Animatronics', '35 design rounds'],
     img: './img/scout/card.jpg',
-    buttons: [{ label: 'See the design process', href: './scrapyard-scout.html', primary: true, internal: true }],
+    buttons: [{ label: 'See the design process', href: './bd1-droid.html', primary: true, internal: true }],
+    fineprint: 'Personal fan project. Not affiliated with Lucasfilm.',
   },
 };
 
-// Project page for Scrapyard Scout (scrapyard-scout.html).
+// Project page for the BD-1 droid (bd1-droid.html).
 export const SCOUT = {
-  title: 'Scrapyard Scout',
+  title: 'BD-1 Droid',
   eyebrow: 'Creative project · In progress',
   hook: "A curious, scrappy mechanic's-helper droid that rides on your back, looks over your shoulder and reacts on cue. I took it from a first sketch to print-ready parts.",
   facts: [
@@ -125,7 +126,7 @@ export const SCOUT = {
   ],
   cover: { img: './img/scout/01-hero-droid-v35.jpg', caption: 'Version 35, the final 3D design, with a weathered black face plate and green grid eye.' },
   challenge:
-    'I wanted to take one character all the way from an idea to a working animatronic myself: an original companion droid, worn on the body, that feels alive. A character worn on the body has to read from a distance, survive real wear and fit a budget, so the limits were tight. It had to weigh under 1.5 lb with its battery, cost around $100, have no visible screws, and be buildable by someone new to electronics and 3D modeling.',
+    'I wanted to take one character all the way from an idea to a working animatronic myself: a companion droid, worn on the body, that feels alive. A character worn on the body has to read from a distance, survive real wear and fit a budget, so the limits were tight. It had to weigh under 1.5 lb with its battery, cost around $100, have no visible screws, and be buildable by someone new to electronics and 3D modeling.',
   role:
     "I wrote the character brief, set the look and the quality bar, marked up every round by hand, and made every call on when a design was locked. Concept images and 3D models were generated with Claude, an AI collaborator, from my brief, written direction and markups. I'll build and program the physical droid myself.",
   steps: [
@@ -172,6 +173,7 @@ export const SCOUT = {
     'Iteration is the work. Round 33 felt done until I put it next to strong references. The redesign that followed was the biggest jump in quality.',
     'Check in the model before cutting features. An early estimate said the head would hit mine; measuring the 3D model showed at least an inch of clearance at every angle.',
   ],
+  fineprint: 'Personal fan project. Not affiliated with Lucasfilm.',
   next: 'Print the parts, test-fit the head first, wire the motors, eye light and sound, then program its moods and idle moves. I will add build photos and a short video here as it comes together.',
 };
 

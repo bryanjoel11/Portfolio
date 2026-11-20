@@ -73,6 +73,7 @@ const html = `
         <p class="eyebrow"><span class="live-dot"></span>Next</p>
         <p class="cs-text">${S.next}</p>
         <div class="btn-row cs-end"><a class="btn primary" href="./index.html#creative">${back}Back to portfolio</a></div>
+        <p class="fineprint">${S.fineprint}</p>
       </div>
     </div>
   </section>

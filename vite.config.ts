@@ -7,7 +7,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        scout: resolve(__dirname, 'scrapyard-scout.html'),
+        droid: resolve(__dirname, 'bd1-droid.html'),
       },
     },
   },
