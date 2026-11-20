@@ -107,7 +107,7 @@ export const CREATIVE = {
     tagline: 'A companion droid I designed to wear on my back.',
     description:
       "I've always loved scrappy little companion droids, so I'm designing my own from scratch. My BD-1 is a mechanic's helper that rides on a back harness, looks over my shoulder, and shows its mood with head poses, a glowing grid eye and sound. Over 35 design rounds it went from a character brief to a print-ready, 32-part model. Next up: printing, wiring and programming it.",
-    chips: ['Character design', 'Modeled in Blender', 'Animatronics', '35 design rounds'],
+    chips: ['Character design', '3D design', 'Animatronics', '35 design rounds'],
     img: './img/scout/card.jpg',
     buttons: [{ label: 'See the design process', href: './bd1-droid.html', primary: true, internal: true }],
     fineprint: 'Personal fan project. Not affiliated with Lucasfilm.',
@@ -128,7 +128,7 @@ export const SCOUT = {
   challenge:
     'I wanted to take one character all the way from an idea to a working animatronic myself: a companion droid, worn on the body, that feels alive. A character worn on the body has to read from a distance, survive real wear and fit a budget, so the limits were tight. It had to weigh under 1.5 lb with its battery, cost around $100, have no visible screws, and be buildable by someone new to electronics and 3D modeling.',
   role:
-    "I wrote the character brief, set the look and the quality bar, marked up every round by hand, and made every call on when a design was locked. Concept images and 3D models were generated with Claude, an AI collaborator, from my brief, written direction and markups. I'll build and program the physical droid myself.",
+    "I wrote the character brief, set the look and the quality bar, marked up every round by hand, and made every call on when a design was locked. I leveraged AI to help me work through some roadblocks along the way. I'll build and program the physical droid myself.",
   steps: [
     {
       title: 'Character first',
