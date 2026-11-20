@@ -1129,3 +1129,4 @@ a.contact-link:hover {
   .cs-hero { padding-top: 112px; }
   .cs-band { padding: 72px 0; }
 }
+.cs-step-media.pair .cs-fig:first-child:nth-last-child(3) { grid-column: 1 / -1; }

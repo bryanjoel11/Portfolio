@@ -138,7 +138,6 @@ const creative = `
         <p class="feature-desc">${d.description}</p>
         <ul class="chips">${d.chips.map((c) => `<li>${c}</li>`).join('')}</ul>
         <div class="btn-row">${d.buttons.map(button).join('')}</div>
-        <p class="fineprint">${d.fineprint}</p>
       </div>
     </article>
   </div>

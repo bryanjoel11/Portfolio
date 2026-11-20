@@ -110,7 +110,6 @@ export const CREATIVE = {
     chips: ['Character design', '3D design', 'Animatronics', '35 design rounds'],
     img: './img/scout/card.jpg',
     buttons: [{ label: 'See the design process', href: './bd1-droid.html', primary: true, internal: true }],
-    fineprint: 'Personal fan project. Not affiliated with Lucasfilm.',
   },
 };
 
@@ -154,6 +153,7 @@ export const SCOUT = {
       imgs: [
         { src: './img/scout/02-worn-over-shoulder.jpg', caption: 'Worn on a back harness, looking over my right shoulder.' },
         { src: './img/scout/12-mechanism-layout.jpg', caption: 'Motors, gears and electronics placed inside the shell.' },
+        { src: './img/scout/16-control-pad.jpg', caption: 'The handheld control pad: a thumbstick moves the head, and buttons set its mood and sound.' },
       ],
     },
     {
@@ -173,7 +173,6 @@ export const SCOUT = {
     'Iteration is the work. Round 33 felt done until I put it next to strong references. The redesign that followed was the biggest jump in quality.',
     'Check in the model before cutting features. An early estimate said the head would hit mine; measuring the 3D model showed at least an inch of clearance at every angle.',
   ],
-  fineprint: 'Personal fan project. Not affiliated with Lucasfilm.',
   next: 'Print the parts, test-fit the head first, wire the motors, eye light and sound, then program its moods and idle moves. I will add build photos and a short video here as it comes together.',
 };
 
