@@ -128,7 +128,7 @@ export const SCOUT = {
   challenge:
     'I wanted to take one character all the way from an idea to a working animatronic myself: a companion droid, worn on the body, that feels alive. A character worn on the body has to read from a distance, survive real wear and fit a budget, so the limits were tight. It had to weigh under 1.5 lb with its battery, cost around $100, have no visible screws, and be buildable by someone new to electronics and 3D modeling.',
   role:
-    "I wrote the character brief, set the look and the quality bar, marked up every round by hand, and made every call on when a design was locked. I leveraged AI to help me work through some roadblocks along the way. I'll build and program the physical droid myself.",
+    "I wrote the character brief, set the look and the quality bar, marked up every round by hand, and made every call on when a design was locked. I leveraged AI to help me work through some roadblocks along the way. The build uses 3D-printed PETG parts, two small servo motors for the head, an LED grid eye and a sound board, all run by an ESP32 microcontroller. A handheld pad talks to the droid wirelessly. Software: Blender for the 3D design, and Arduino-style code for its moods and idle moves.",
   steps: [
     {
       title: 'Character first',
