@@ -92,8 +92,8 @@ export const CREATIVE = {
     title: 'Tomorrowland Reimagined',
     tagline: "A fan's redesign of Tomorrowland, built in 3D and explorable in your browser.",
     description:
-      "As a fan, I've always had ideas for where Tomorrowland could go next. So I built the land in 3D with four upgrades: Sugar Rush, an indoor dual racing coaster where the Speedway was, with the PeopleMover running through it; wheelchair-accessible PeopleMover vehicles; Hyperspace Mountain, a Space Mountain refurbishment with its own story; and the old Stitch's Great Escape building brought back to life.",
-    chips: ['3D in the browser', 'Built from scratch', 'Four upgrades'],
+      "As a fan, I've always had ideas for where Tomorrowland could go next. So I built the land in 3D, with detailed buildings I modeled in Blender and every attraction placed to match the real park map. It shows four upgrades: Sugar Rush, an indoor dual racing coaster where the Speedway was, with the PeopleMover running through it; wheelchair-accessible PeopleMover vehicles; Hyperspace Mountain, a Space Mountain refurbishment with its own story; and the old Stitch's Great Escape building brought back to life.",
+    chips: ['3D in the browser', 'Modeled in Blender', 'Four upgrades'],
     img: './img/tomorrowland.jpg',
     buttons: [
       { label: 'Explore in 3D', href: LINKS.tomorrowlandLive, primary: true },
