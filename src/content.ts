@@ -100,6 +100,80 @@ export const CREATIVE = {
     ],
     fineprint: 'Personal concept project. Not affiliated with Disney.',
   },
+  // Second creative project, shown under the featured one with the image on the right.
+  droid: {
+    title: 'BD-1 Droid',
+    status: 'In progress',
+    tagline: 'A companion droid I designed to wear on my back.',
+    description:
+      "I've always loved scrappy little companion droids, so I'm designing my own from scratch. My BD-1 is a mechanic's helper that rides on a back harness, looks over my shoulder, and shows its mood with head poses, a glowing grid eye and sound. Over 35 design rounds it went from a character brief to a print-ready, 32-part model. Next up: printing, wiring and programming it.",
+    chips: ['Character design', '3D design', 'Animatronics', '35 design rounds'],
+    img: './img/scout/card.jpg',
+    buttons: [{ label: 'See the design process', href: './bd1-droid.html', primary: true, internal: true }],
+  },
+};
+
+// Project page for the BD-1 droid (bd1-droid.html).
+export const SCOUT = {
+  title: 'BD-1 Droid',
+  eyebrow: 'Creative project · In progress',
+  hook: "A curious, scrappy mechanic's-helper droid that rides on your back, looks over your shoulder and reacts on cue. I took it from a first sketch to print-ready parts.",
+  facts: [
+    { k: 'My role', v: 'Designer and creative director' },
+    { k: 'Tools', v: 'Blender, 3D printing (PETG), ESP32 microcontroller' },
+    { k: 'Status', v: 'Concept, sketches and 3D model done. Build is next.' },
+  ],
+  cover: { img: './img/scout/01-hero-droid-v35.jpg', caption: 'Version 35, the final 3D design, with a weathered black face plate and green grid eye.' },
+  challenge:
+    'I wanted to take one character all the way from an idea to a working animatronic myself: a companion droid, worn on the body, that feels alive. A character worn on the body has to read from a distance, survive real wear and fit a budget, so the limits were tight. It had to weigh under 1.5 lb with its battery, cost around $100, have no visible screws, and be buildable by someone new to electronics and 3D modeling.',
+  role:
+    "I wrote the character brief, set the look and the quality bar, marked up every round by hand, and made every call on when a design was locked. I leveraged AI to help me work through some roadblocks along the way. The build uses 3D-printed PETG parts, two small servo motors for the head, an LED grid eye and a sound board, all run by an ESP32 microcontroller. A handheld pad talks to the droid wirelessly. Software: Blender for the 3D design, and Arduino-style code for its moods and idle moves.",
+  steps: [
+    {
+      title: 'Character first',
+      text: "Before any shapes, I defined who it is: curious, loyal, a little scrappy, a mechanic's helper rebuilt from scrapyard parts. Then I ranked features for version 1 (moving head, grid eye, sound, idle moves and a remote) and moved walking to a later version.",
+      imgs: [{ src: './img/scout/04-head-exploration-three-eye.jpg', caption: 'Head exploration: three-eye visor options, pushed toward a scrappier, rebuilt look.' }],
+    },
+    {
+      title: '33 rounds of sketches',
+      text: 'I explored a welder-mask head, then a three-eye visor head, then the full body. My hand markups drove each change, from the head shape to a hooded face and longer plate legs. I locked round 33.',
+      imgs: [{ src: './img/scout/09-sketch-v33-locked.jpg', caption: 'Round 33, locked: detailed plate legs and a hooded face.' }],
+    },
+    {
+      title: 'Knowing when it was not good enough',
+      text: 'The first 3D model of the locked sketch felt flat next to strong reference droids, so I unlocked it. Version 34 got a deeper head, bigger eyes, chunkier legs and a two-color palette. Version 35 added a detailed face plate and moved the droid onto a back harness.',
+      imgs: [
+        { src: './img/scout/10-first-3d-model-v33.jpg', caption: 'Before: the first 3D model of round 33.' },
+        { src: './img/scout/11-redesign-v34.jpg', caption: 'After: the version 34 redesign.' },
+      ],
+    },
+    {
+      title: 'Built to be worn',
+      text: 'Two small motors turn and tilt the head about 255 degrees, and I checked it clears my own head at every angle. The shell snaps together instead of using screws, the power cable breaks away with a magnet if it snags, and a handheld pad styled like a worn control panel triggers moods and sounds.',
+      imgs: [
+        { src: './img/scout/02-worn-over-shoulder.jpg', caption: 'Worn on a back harness, looking over my right shoulder.' },
+        { src: './img/scout/12-mechanism-layout.jpg', caption: 'Motors, gears and electronics placed inside the shell.' },
+        { src: './img/scout/16-control-pad.jpg', caption: 'The handheld control pad: a thumbstick moves the head, and buttons set its mood and sound.' },
+      ],
+    },
+    {
+      title: 'Ready to print',
+      text: 'I split the model into 32 parts sized for common printers, in three colors of PETG (about 750 g). I packaged the files with a parts list and a quote request, compared six print options, and chose a local print service.',
+      imgs: [{ src: './img/scout/17-print-parts.jpg', caption: 'The print-ready parts, in three colors of PETG.' }],
+    },
+  ],
+  decisions: [
+    { k: 'Posed legs, not walking', v: 'Walking would break the weight and budget limits, so it moved to version 2.' },
+    { k: 'Snap clips, not screws', v: 'Clean surfaces and fast access. The visible screws are printed decoration.' },
+    { k: 'PETG, not PLA', v: 'Florida heat softens PLA, and printing in color saves painting.' },
+    { k: 'About $140, not $100', v: "I owned no parts, and a reliable kit mattered more. I listed trims to bring it back down." },
+  ],
+  learned: [
+    'Character first saves time. A clear brief made it easy to reject shapes that looked cool but did not feel scrappy or curious.',
+    'Iteration is the work. Round 33 felt done until I put it next to strong references. The redesign that followed was the biggest jump in quality.',
+    'Check in the model before cutting features. An early estimate said the head would hit mine; measuring the 3D model showed at least an inch of clearance at every angle.',
+  ],
+  next: 'Print the parts, test-fit the head first, wire the motors, eye light and sound, then program its moods and idle moves. I will add build photos and a short video here as it comes together.',
 };
 
 export const SKILLS: { group: string; chips: string[] }[] = [

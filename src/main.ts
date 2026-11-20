@@ -25,11 +25,12 @@ const NAV = [
 ];
 
 // A button whose link isn't set yet renders as a dashed placeholder instead of a dead link.
-function button(b: { label: string; href: string; primary?: boolean }) {
+function button(b: { label: string; href: string; primary?: boolean; internal?: boolean }) {
   const isGit = b.label === 'GitHub';
   if (!b.href) {
     return `<span class="btn ${b.primary ? 'primary' : 'ghost'} pending" title="Link added once the site is live on Netlify">${b.label}<small>link after deploy</small></span>`;
   }
+  if (b.internal) return `<a class="btn ${b.primary ? 'primary' : 'ghost'}" href="${b.href}">${b.label}${ICON.arrow}</a>`;
   return `<a class="btn ${b.primary ? 'primary' : 'ghost'}" href="${b.href}" target="_blank" rel="noopener">${isGit ? ICON.github : ''}${b.label}${isGit ? '' : ICON.ext}</a>`;
 }
 
@@ -111,6 +112,7 @@ const work = `
 </section>`;
 
 const f = CREATIVE.featured;
+const d = CREATIVE.droid;
 const creative = `
 <section class="band" id="creative">
   <div class="wrap">
@@ -125,6 +127,17 @@ const creative = `
         <ul class="chips">${f.chips.map((c) => `<li>${c}</li>`).join('')}</ul>
         <div class="btn-row">${f.buttons.map(button).join('')}</div>
         <p class="fineprint">${f.fineprint}</p>
+      </div>
+    </article>
+    <article class="feature-card flip reveal">
+      <div class="feature-media"><img src="${d.img}" alt="3D render of my BD-1 droid" width="1600" height="1000" loading="lazy" /></div>
+      <div class="feature-body">
+        <p class="eyebrow"><span class="live-dot"></span>${d.status}</p>
+        <h3>${d.title}</h3>
+        <p class="work-tag">${d.tagline}</p>
+        <p class="feature-desc">${d.description}</p>
+        <ul class="chips">${d.chips.map((c) => `<li>${c}</li>`).join('')}</ul>
+        <div class="btn-row">${d.buttons.map(button).join('')}</div>
       </div>
     </article>
   </div>
